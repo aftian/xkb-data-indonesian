@@ -1,11 +1,12 @@
 // $XKeyboardConfig$
 
-// "Balinese Keyboard Layout"
+// "BALINESE Keyboard Layout"
 // This layout is designed for Balinese Script
-// based on Tuladha Jejeg Unicode keyboard layout
+// 
+// 
 // the font has been packaged in
-// GPL V 2
-// RAHMAN YUSRI AFTIAN aftian9603@gmail.com
+// 
+// by: Rahman Yusri Aftian (aftian9603@gmail.com)
 
 // *****************************************************************
 
@@ -17,30 +18,29 @@ xkb_symbols "balinese_unicode" {
 
 // Alphanumeric section
 
-    key <AB01> { [	U1B01	,	U1B1C	,	asciitilde	] };	
+    key <AB01> { [	U1B01	,	U1B1C	,	asciitilde		] };	
     key <AB02> { [	U1B05	,	U1B21	,	U1B61		] };	
     key <AB03> { [	U1B07	,	U1B18	,	at		] };	
-    key <AB04> { [	U1B11	,	U1B2A	,	numbersign	] };	
+    key <AB04> { [	U1B11	,	U1B2A	,	numbersign		] };	
     key <AB05> { [	U1B0D	,	U1B29	,	dollar		] };	
     key <AB06> { [	U1B0C	,	U1B26	,	percent		] };	
-    key <AB07> { [	U1B5B	,	U1B2B	,	j	] };	
+    key <AB07> { [	U1B5B	,	U1B2B	,	j		] };	
     key <AB08> { [	U1B03	,	U1B5E	,	comma		] };	
     key <AB09> { [	U1B06	,	U1B5F	,	period		] };	
-    key <AB10> { [	U1B28	,	U1B44	,	question		
-] };	
+    key <AB10> { [	U1B28	,	U1B44	,	question		] };	
 									
 									
-    key <AC01> { [	U1B43	,	U1B35  	,	U1B00		] };	
+    key <AC01> { [	U1B43	,	U1B35  	,	U1B6F		] };	
     key <AC02> { [	U1B09	,	U1B32	,	U1B02		] };	
-    key <AC03> { [	U1B14	,	U1B24	,	ampersand	] };	
-    key <AC04> { [	U1B47	,	U1B16	,	asterisk	] };	
+    key <AC03> { [	U1B14	,	U1B24	,	ampersand		] };	
+    key <AC04> { [	U1B47	,	U1B16	,	asterisk		] };	
     key <AC05> { [	U1B45	,	U1B15	,	less		] };	
     key <AC06> { [	U1B4B	,	U1B33	,	greater		] };	
-    key <AC07> { [	U1B25	,	U1B1A	,	U1B411		] };	
-    key <AC08> { [	U1B19	,	U1B13	,	quotedbl	] };	
+    key <AC07> { [	U1B25	,	U1B1A	,	UA999		] };	
+    key <AC08> { [	U1B19	,	U1B13	,	quotedbl		] };	
     key <AC09> { [	U1B46	,	U1B26	,	colon		] };	
-    key <AC10> { [ 	U1B0A	,	U1B5D	,	semicolon	] };	
-    key <AC11> { [	U1B04	,	U1B6A	,	quoteright	] };	
+    key <AC10> { [ 	U1B0A	,	U1B5D	,	semicolon		] };	
+    key <AC11> { [	U1B04	,	U1B6A	,	quoteright		] };	
 									
 									
     key <AD01> { [	U1B48	,	U1B49	,	U1B0E		] };	
@@ -53,17 +53,12 @@ xkb_symbols "balinese_unicode" {
     key <AD08> { [	U1B37	,	U1B36	,	U1B34		] };	
     key <AD09> { [	U1B41	,	U1B40	,	U1B39		] };	
     key <AD10> { [	U1B4A	,	U1B27	,	slash		] };	
-    key <AD11> { [	U1B0B	,	U1B31	,	braceleft	
-] };	
-    key <AD12> { [	U1B5A	,	U1B30	,	braceright		
-] };	
-    key <AD13> { [      U1B4A   ,       U1B17   ,       braceright           
-] };
-
+    key <AD11> { [	U1B0B	,	U1B31	,	braceleft		] };	
+    key <AD12> { [	U1B5A	,	U1B30	,	braceright		] };	
+    key <AD13> { [      U1B4A   ,       U1B17   ,       braceright              ] };
+								
 									
-									
-    key <AE01> { [	1	,	U1B51	,	exclam		
-] };	
+    key <AE01> { [	1	,	U1B51	,	exclam		] };	
     key <AE02> { [	2	,	U1B52	,	U1B3A		] };	
     key <AE03> { [	3	,	U1B53	,	U1B3B		] };	
     key <AE04> { [	4	,	U1B54	,	U1B3C		] };	
@@ -71,16 +66,12 @@ xkb_symbols "balinese_unicode" {
     key <AE06> { [	6	,	U1B56	,	U1B0F		] };	
     key <AE07> { [	7	,	U1B57	,	U1B3E		] };	
     key <AE08> { [	8	,	U1B58	,	U1B3F		] };	
-    key <AE09> { [	9	,	U1B59	,	parenleft		
-] };	
-    key <AE10> { [	0	,	U1B50	,	parenright		
-] };	
-    key <AE11> { [ 	U1B60	,	minus	,	underscore		
-] };	
-    key <AE12> { [	U1B00	,	ᬹequal	,	plus		
-] };	
+    key <AE09> { [	9	,	U1B59	,	parenleft		] };	
+    key <AE10> { [	0	,	U1B50	,	parenright		] };	
+    key <AE11> { [ 	U1B60	,	U1B78	,	underscore		] };	
+    key <AE12> { [	U1B00	,	equal	,	plus		] };	
 									
-    key <TLDE> { [	U1B1E	,	U1B1D	,	quoteleft	] };	
+    key <TLDE> { [	U1B1E	,	U1B1D	,	quoteleft		] };	
     key <BKSL> { [	UA9CC	,	UA9CD	,	bar		] };	
 									
 									
